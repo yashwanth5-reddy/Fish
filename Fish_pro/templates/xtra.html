@@ -1,0 +1,439 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seasonal Disease Prediction System for Fish</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #dce2e9;
+        }
+        .container {
+            max-width: 600px;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-top: 30px;
+        }
+        .bold-label { font-weight: bolder; }
+        .btn-custom {
+            background-color: #007bff;
+            color: white;
+            font-weight: bold;
+        }
+        .btn-custom:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2 class="text-center text-primary">Seasonal Disease Prediction</h2>
+        <form id="prediction-form">
+            <div class="mb-3">
+                <label for="oxygen" class="form-label bold-label">Dissolved Oxygen (mg/L):</label>
+                <input type="number" id="oxygen" class="form-control" placeholder="Enter dissolved oxygen level">
+            </div>
+            <div class="mb-3">
+                <label for="salinity" class="form-label bold-label">Salinity (ppt):</label>
+                <input type="number" id="salinity" class="form-control" placeholder="Enter salinity level">
+            </div>
+            <div class="mb-3">
+                <label for="ph" class="form-label bold-label">pH Level:</label>
+                <input type="number" id="ph" class="form-control" placeholder="Enter pH level">
+            </div>
+            <div class="mb-3">
+                <label for="temperature" class="form-label bold-label">Water Temperature (°C):</label>
+                <input type="number" id="temperature" class="form-control" placeholder="Enter temperature">
+            </div>
+            <div class="mb-3">
+                <label for="ammonia" class="form-label bold-label">Ammonia (mg/L):</label>
+                <input type="number" id="ammonia" class="form-control" placeholder="Enter ammonia level">
+            </div>
+            <div class="mb-3">
+                <label for="season" class="form-label bold-label">Season:</label>
+                <select id="season" class="form-select">
+                    <option value="" disabled selected>Select season</option>
+                    <option value="Summer">Summer</option>
+                    <option value="Winter">Winter</option>
+                    <option value="Monsoon">Monsoon</option>
+                </select>
+            </div>
+            <button type="button" id="predict-button" class="btn btn-custom w-100" data-bs-toggle="modal" data-bs-target="#resultModal">Predict</button>
+        </form>
+    </div>
+
+   
+    <div class="modal fade" id="resultModal" tabindex="-1" aria-labelledby="resultModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header bg-primary text-white">
+                    <h5 class="modal-title" id="resultModalLabel">Prediction Result</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body" id="modalBody">
+                    Predicting...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('predict-button').addEventListener('click', function () {
+            const season = document.getElementById('season').value;
+            const temperature = parseFloat(document.getElementById('temperature').value);
+            const ph = parseFloat(document.getElementById('ph').value);
+            const salinity = parseFloat(document.getElementById('salinity').value);
+            const oxygen = parseFloat(document.getElementById('oxygen').value);
+            const ammonia = parseFloat(document.getElementById('ammonia').value);
+            let modalBody = document.getElementById('modalBody');
+
+            if (!season || isNaN(temperature) || isNaN(ph) || isNaN(salinity) || isNaN(oxygen) || isNaN(ammonia)) {
+                modalBody.innerHTML = '<b>Please provide valid inputs for all fields.</b>';
+                return;
+            }
+
+            modalBody.innerHTML = '<b>Predicting... Please wait.</b>';
+            
+            fetch("http://127.0.0.1:5000/predict", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ season, temperature, ph, salinity, oxygen, ammonia })
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.error) {
+                    modalBody.innerHTML = `<b>Error: ${data.error}</b>`;
+                } else if (Array.isArray(data.prediction) && data.prediction.length > 0) {
+            let diseaseInfo = data.prediction.map((disease, index) => `
+                <p>
+                    <b>Disease:</b> ${disease}<br>
+                    <b>Risk Level:</b> ${data.risk_level}<br>
+                    <b>Preventive Measures:</b> ${data.preventive_measures[index]}
+                </p>
+            `).join('');
+            modalBody.innerHTML = `<b>Predicted Disease(s):</b> ${diseaseInfo}`;
+        }
+                    else {
+                    modalBody.innerHTML = '<b>No disease detected.</b>';
+                }
+            })
+            .catch(error => {
+                console.error("Error:", error);
+                modalBody.innerHTML = '<b>Server error. Try again later.</b>';
+            });
+        });
+    </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html> -->
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seasonal Disease Prediction System for Fish</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #dce2e9;
+        }
+        .container {
+            max-width: 600px;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-top: 30px;
+        }
+        .bold-label { font-weight: bolder; }
+        .btn-custom {
+            background-color: #89afd8;
+            color: white;
+            font-weight: bold;
+        }
+        .btn-custom:hover {
+            background-color: #6ea6e2;
+        }
+        .navbar {
+            background-color: #63a7f0;
+        }
+        .navbar-brand, .nav-link {
+            color: white !important;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Disease Prediction</a>
+            <div class="d-flex ms-auto">
+                <span class="navbar-text me-3">
+                    Welcome, <b>{{ user.name }}</b>
+                </span>
+                <a href="/logout" class="btn btn-danger btn-sm">Logout</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h2 class="text-center text-primary">Seasonal Disease Prediction</h2>
+        <form id="prediction-form">
+            <div class="mb-3">
+                <label for="oxygen" class="form-label bold-label">Dissolved Oxygen (mg/L):</label>
+                <input type="number" id="oxygen" class="form-control" placeholder="Enter dissolved oxygen level">
+            </div>
+            <div class="mb-3">
+                <label for="salinity" class="form-label bold-label">Salinity (ppt):</label>
+                <input type="number" id="salinity" class="form-control" placeholder="Enter salinity level">
+            </div>
+            <div class="mb-3">
+                <label for="ph" class="form-label bold-label">pH Level:</label>
+                <input type="number" id="ph" class="form-control" placeholder="Enter pH level">
+            </div>
+            <div class="mb-3">
+                <label for="temperature" class="form-label bold-label">Water Temperature (°C):</label>
+                <input type="number" id="temperature" class="form-control" placeholder="Enter temperature">
+            </div>
+            <div class="mb-3">
+                <label for="ammonia" class="form-label bold-label">Ammonia (mg/L):</label>
+                <input type="number" id="ammonia" class="form-control" placeholder="Enter ammonia level">
+            </div>
+            <div class="mb-3">
+                <label for="season" class="form-label bold-label">Season:</label>
+                <select id="season" class="form-select">
+                    <option value="" disabled selected>Select season</option>
+                    <option value="Summer">Summer</option>
+                    <option value="Winter">Winter</option>
+                    <option value="Monsoon">Monsoon</option>
+                </select>
+            </div>
+            <button type="button" id="predict-button" class="btn btn-custom w-100" data-bs-toggle="modal" data-bs-target="#resultModal">Predict</button>
+        </form>
+    </div>
+
+  
+    <div class="modal fade" id="resultModal" tabindex="-1" aria-labelledby="resultModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header bg-primary text-white">
+                    <h5 class="modal-title" id="resultModalLabel">Prediction Result</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body" id="modalBody">
+                    Predicting...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('predict-button').addEventListener('click', function () {
+            const season = document.getElementById('season').value;
+            const temperature = parseFloat(document.getElementById('temperature').value);
+            const ph = parseFloat(document.getElementById('ph').value);
+            const salinity = parseFloat(document.getElementById('salinity').value);
+            const oxygen = parseFloat(document.getElementById('oxygen').value);
+            const ammonia = parseFloat(document.getElementById('ammonia').value);
+            let modalBody = document.getElementById('modalBody');
+
+            if (!season || isNaN(temperature) || isNaN(ph) || isNaN(salinity) || isNaN(oxygen) || isNaN(ammonia)) {
+                modalBody.innerHTML = '<b>Please provide valid inputs for all fields.</b>';
+                return;
+            }
+
+            modalBody.innerHTML = '<b>Predicting... Please wait.</b>';
+            
+            fetch("http://127.0.0.1:5000/predict", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ season, temperature, ph, salinity, oxygen, ammonia })
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.error) {
+                    modalBody.innerHTML = `<b>Error: ${data.error}</b>`;
+                } else if (Array.isArray(data.prediction) && data.prediction.length > 0) {
+                    let diseaseInfo = data.prediction.map((disease, index) => `
+                        <p>
+                            <b>Disease:</b> ${disease}<br>
+                            <b>Risk Level:</b> ${data.risk_level}<br>
+                            <b>Preventive Measures:</b> ${data.preventive_measures[index]}
+                        </p>
+                    `).join('');
+                    modalBody.innerHTML = `<b>Predicted Disease(s):</b> ${diseaseInfo}`;
+                } else {
+                    modalBody.innerHTML = '<b>No disease detected.</b>';
+                }
+            })
+            .catch(error => {
+                console.error("Error:", error);
+                modalBody.innerHTML = '<b>Server error. Try again later.</b>';
+            });
+        });
+    </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seasonal Disease Prediction System for Fish</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #dce2e9;
+        }
+        .container {
+            max-width: 600px;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-top: 30px;
+        }
+        .bold-label { font-weight: bolder; }
+        .btn-custom {
+            background-color: #89afd8;
+            color: white;
+            font-weight: bold;
+        }
+        .btn-custom:hover {
+            background-color: #66e634;
+        }
+        .navbar {
+            background-color: #121211;
+        }
+        .navbar-brand, .nav-link {
+            color: white !important;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Disease Prediction</a>
+            <div class="d-flex ms-auto">
+                <span class="navbar-text me-3">
+                    Welcome, <b>{{ user.name }}</b>
+                </span>
+                <a href="/logout" class="btn btn-danger btn-sm">Logout</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h2 class="text-center text-primary">Seasonal Disease Prediction</h2>
+        <form id="prediction-form">
+            <div class="mb-3">
+                <label for="oxygen" class="form-label bold-label">Dissolved Oxygen (mg/L):</label>
+                <input type="number" id="oxygen" class="form-control" placeholder="Enter dissolved oxygen level">
+            </div>
+            <div class="mb-3">
+                <label for="salinity" class="form-label bold-label">Salinity (ppt):</label>
+                <input type="number" id="salinity" class="form-control" placeholder="Enter salinity level">
+            </div>
+            <div class="mb-3">
+                <label for="ph" class="form-label bold-label">pH Level:</label>
+                <input type="number" id="ph" class="form-control" placeholder="Enter pH level">
+            </div>
+            <div class="mb-3">
+                <label for="temperature" class="form-label bold-label">Water Temperature (°C):</label>
+                <input type="number" id="temperature" class="form-control" placeholder="Enter temperature">
+            </div>
+            <div class="mb-3">
+                <label for="ammonia" class="form-label bold-label">Ammonia (mg/L):</label>
+                <input type="number" id="ammonia" class="form-control" placeholder="Enter ammonia level">
+            </div>
+            <div class="mb-3">
+                <label for="season" class="form-label bold-label">Season:</label>
+                <select id="season" class="form-select">
+                    <option value="" disabled selected>Select season</option>
+                    <option value="Summer">Summer</option>
+                    <option value="Winter">Winter</option>
+                    <option value="Monsoon">Monsoon</option>
+                </select>
+            </div>
+            <button type="button" id="predict-button" class="btn btn-custom w-100" data-bs-toggle="modal" data-bs-target="#resultModal">Predict</button>
+        </form>
+    </div>
+
+    <div class="modal fade" id="resultModal" tabindex="-1" aria-labelledby="resultModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header bg-primary text-white">
+                    <h5 class="modal-title" id="resultModalLabel">Prediction Result</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body" id="modalBody">Predicting...</div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('predict-button').addEventListener('click', function () {
+            const season = document.getElementById('season').value;
+            const temperature = parseFloat(document.getElementById('temperature').value);
+            const ph = parseFloat(document.getElementById('ph').value);
+            const salinity = parseFloat(document.getElementById('salinity').value);
+            const oxygen = parseFloat(document.getElementById('oxygen').value);
+            const ammonia = parseFloat(document.getElementById('ammonia').value);
+            let modalBody = document.getElementById('modalBody');
+
+            if (!season || isNaN(temperature) || isNaN(ph) || isNaN(salinity) || isNaN(oxygen) || isNaN(ammonia)) {
+                modalBody.innerHTML = '<b>Please provide valid inputs for all fields.</b>';
+                return;
+            }
+
+            modalBody.innerHTML = '<b>Predicting... Please wait.</b>';
+            
+            fetch("http://127.0.0.1:5000/predict", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ season, temperature, ph, salinity, oxygen, ammonia })
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.error) {
+                    modalBody.innerHTML = `<b>Error: ${data.error}</b>`;
+                } else if (Array.isArray(data.prediction) && data.prediction.length > 0) {
+                    let diseaseInfo = data.prediction.map((disease, index) => `
+                        <p><b>Disease:</b> ${disease}<br>
+                        <b>Risk Level:</b> ${data.risk_level}<br>
+                        <b>Preventive Measures:</b></p>
+                        <ul>${data.preventive_measures[index].map(measure => `<li>${measure}</li>`).join('')}</ul>
+                    `).join('');
+                    modalBody.innerHTML = `<b>Predicted Disease(s):</b> ${diseaseInfo}`;
+                } else {
+                    modalBody.innerHTML = '<b>No disease detected.</b>';
+                }
+            })
+            .catch(error => {
+                console.error("Error:", error);
+                modalBody.innerHTML = '<b>Server error. Try again later.</b>';
+            });
+        });
+    </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

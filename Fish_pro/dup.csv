@@ -1,0 +1,501 @@
+Season,Dissolved Oxygen (mg/L),Salinity (ppt),pH,Water Temp,Ammonia (mg/L),Disease Type,Symptoms,Disease to Occur,Disease Risk
+Monsoon,4.95,11.9,8.03,24.3,0.01,Parasitic,Reduced Feeding,Ichthyophthiriasis,High
+Summer,4.08,15.89,6.52,32.6,0.05,None,None,None,Low
+Summer,7.36,17.82,6.56,24.8,0.04,Unknown,Lesions,Aeromoniasis,Medium
+Summer,4.87,24.15,6.99,33.6,0.04,Unknown,Gasping,Columnaris,Medium
+Monsoon,4.3,26.58,8.07,21.8,0.01,None,None,Aeromoniasis,Low
+Monsoon,4.57,21.8,8.44,20.8,0.05,None,None,None,Low
+Winter,5.06,9.42,6.73,26.1,0.1,Unknown,Lesions,Ichthyophthiriasis,Medium
+Monsoon,4.13,14.13,8.18,30.9,0.03,None,None,Aeromoniasis,Low
+Summer,4.98,15.75,7.37,,0.1,Unknown,Discoloration,None,Medium
+Winter,4.11,7.41,6.6,26.6,0.03,Unknown,Lesions,Columnaris,Medium
+Summer,4.44,0.34,8.31,23.5,0.08,Parasitic,Reduced Feeding,Aeromoniasis,High
+Summer,6.55,14.5,8.08,26.4,0.03,Unknown,Lesions,None,Medium
+Summer,4.66,23.57,,33.8,0.03,None,None,None,Low
+Summer,4.95,17.46,6.68,25.2,0.04,Parasitic,Reduced Feeding,Aeromoniasis,High
+Summer,4.77,17.61,6.77,27.2,0.03,Unknown,Lesions,Aeromoniasis,Medium
+Summer,4.77,6.74,6.68,33.7,0.08,None,None,Ichthyophthiriasis,Low
+Winter,4.82,1.85,6.85,32,0.07,Bacterial,Lesions,Saprolegniasis,High
+Monsoon,6.34,5.45,6.73,26.9,0.08,Unknown,Lesions,Aeromoniasis,Medium
+Winter,6.97,5.04,8.29,23.3,0.08,None,None,Aeromoniasis,Low
+Monsoon,5.44,7.27,7.53,28.2,0.06,None,None,None,Low
+Winter,7.29,22.56,7.07,24.9,0.05,None,None,Ichthyophthiriasis,Low
+Summer,5.19,16.26,7.54,26.4,0.08,None,None,Hypoxia,Low
+Winter,7.8,27.95,8.37,32.8,0.09,Unknown,Discoloration,Columnaris,Medium
+Winter,5.51,22.53,7.38,31.8,,Unknown,Discoloration,None,Medium
+Monsoon,4.4,25.58,7.92,27.1,0.04,None,None,None,Low
+Monsoon,7.84,26.03,7.38,29.5,0.03,Unknown,Gasping,Ichthyophthiriasis,Medium
+Winter,4.8,27.37,7.09,20.8,0.02,Unknown,Gasping,Columnaris,Medium
+Winter,7.18,34.48,8.13,26.4,0.04,Unknown,Lesions,Saprolegniasis,Medium
+Summer,5.11,5.76,8.18,22.6,0.04,None,None,None,Low
+Summer,,3.39,7.56,24.3,0.04,Unknown,Lesions,Ichthyophthiriasis,Medium
+Summer,6.34,26.55,6.79,28,0.1,Unknown,Gasping,Aeromoniasis,Medium
+Winter,6.52,29.34,6.5,31,0.04,Bacterial,Lesions,Columnaris,High
+Monsoon,4.06,23.04,7.82,28.5,0.1,Bacterial,Lesions,Hypoxia,High
+Winter,7.77,,6.75,24.5,0.01,Unknown,Lesions,None,Medium
+Summer,7.71,12.24,8.31,21.2,0.02,Unknown,Discoloration,None,Medium
+Summer,6.14,11.58,7.21,28,0.05,Bacterial,Lesions,None,High
+Summer,7.34,25.56,6.69,24,0.02,None,None,None,Low
+Monsoon,6.95,13.45,6.6,25.5,0.06,Unknown,Gasping,Aeromoniasis,Medium
+Monsoon,5.24,13.24,7.63,32.6,0.1,Unknown,Gasping,None,Medium
+Winter,7.73,19.54,6.5,33.8,0.03,Fungal,Discoloration,None,Medium
+Monsoon,7.11,10.48,,20.8,0.07,Fungal,Discoloration,None,Medium
+Monsoon,4.48,0.83,8.12,32.9,0.06,Bacterial,Lesions,None,High
+Summer,5.33,24.39,7.28,27.9,0.04,None,None,Ichthyophthiriasis,Low
+Winter,4.2,11.85,6.94,28.2,0.09,Bacterial,Lesions,Saprolegniasis,High
+Monsoon,7.39,30,7.23,32.4,0.06,None,None,Aeromoniasis,Low
+Monsoon,4.16,31.89,7.04,21.7,0.04,None,None,None,Low
+Monsoon,7.81,24.36,6.87,26.7,0.04,Unknown,Reduced Feeding,None,Medium
+Monsoon,7.63,6.64,8.23,26.1,0.07,Unknown,Discoloration,None,Medium
+Monsoon,7.78,33.93,7.8,34.3,0.05,None,None,None,Low
+Winter,4.07,12.5,7.69,27.2,0.05,Parasitic,Reduced Feeding,None,High
+Monsoon,5.83,13.76,7.82,26.7,0.03,None,None,None,Low
+Monsoon,6.22,17.92,7.47,,0.02,Unknown,Discoloration,None,Medium
+Summer,6.09,30.77,7.78,27.5,0.06,Unknown,Lesions,None,Medium
+Winter,6.42,6.68,7.68,34.9,0.06,Bacterial,Lesions,None,High
+Summer,4.6,15.7,7.31,23.6,0.1,Unknown,Lesions,None,Medium
+Monsoon,5.75,2.98,7.19,34.2,0.05,Unknown,Reduced Feeding,None,Medium
+Monsoon,4.5,11.3,8.12,26.4,0.01,Unknown,Lesions,Saprolegniasis,Medium
+Monsoon,6.35,19.15,7.3,22.9,0.05,Unknown,Gasping,None,Medium
+Summer,7.66,27.55,6.75,20.8,0.06,Unknown,Reduced Feeding,Ichthyophthiriasis,Medium
+Summer,4.94,30.36,7.81,30.6,0.07,Bacterial,Lesions,None,High
+Monsoon,7.12,27.81,8.11,32.4,0.09,Unknown,Reduced Feeding,Columnaris,Medium
+Monsoon,4.49,9.03,7.41,26.1,0.09,Unknown,Gasping,Hypoxia,Medium
+Winter,4.64,26.74,8.28,25.3,0.1,Parasitic,Reduced Feeding,None,High
+Summer,7.42,0.68,7.81,26.2,0.06,Unknown,Lesions,None,Medium
+Winter,6.01,13.46,7.7,20.1,0.09,None,None,None,Low
+Winter,5.11,12.06,7.08,26.7,0.09,None,None,None,Low
+Monsoon,6.85,25.66,6.91,22.5,0.07,None,None,None,Low
+Winter,7.72,14.34,7.78,23.8,0.07,None,None,Aeromoniasis,Low
+Summer,4.38,25.9,6.61,24.9,0.03,None,None,Columnaris,Low
+Winter,5.37,20.51,7.17,25.1,0.07,Unknown,Reduced Feeding,None,Medium
+Winter,7.06,31.06,6.55,23.9,0.08,Unknown,Lesions,None,Medium
+Monsoon,6.42,31.13,6.99,27.1,0.03,Fungal,Discoloration,Saprolegniasis,Medium
+Summer,7.36,28.03,8.21,34,0.01,Bacterial,Lesions,None,High
+Winter,7.03,18.69,7.92,20.9,0.03,Unknown,Discoloration,None,Medium
+Winter,5.67,28.44,7.72,32.5,0.09,None,None,None,Low
+Winter,5.31,12.38,8,29.8,0.09,Unknown,Reduced Feeding,None,Medium
+Summer,6.86,5.25,7.46,29,0.06,Bacterial,Lesions,None,High
+Winter,5.52,10.04,6.53,22.6,0.02,None,None,None,Low
+Summer,6.52,7.82,7.71,,0.02,None,None,Saprolegniasis,Low
+Summer,7.04,28.53,7.7,31,0.06,None,None,Aeromoniasis,Low
+Winter,4.59,2.9,6.87,32.5,0.04,None,None,Ichthyophthiriasis,Low
+Summer,7.01,15.82,6.93,35,0.05,Bacterial,Lesions,Aeromoniasis,High
+Summer,4.87,26.52,8.24,29.1,0.1,Unknown,Gasping,Hypoxia,Medium
+Winter,5.09,8.29,6.55,33,,None,None,None,Low
+Monsoon,5.19,3.57,6.69,32.5,0.08,None,None,None,Low
+Summer,7.05,24.92,6.5,32.9,0.02,Bacterial,Lesions,None,High
+Monsoon,7.48,14.32,7.91,21.4,0.02,None,None,Columnaris,Low
+Winter,6.62,20.46,8.42,23.3,0.04,Unknown,Lesions,Aeromoniasis,Medium
+Monsoon,5.9,18.78,7.15,24.2,0.02,Unknown,Lesions,Aeromoniasis,Medium
+Winter,5.66,15.59,8.23,22.4,0.08,None,None,None,Low
+Monsoon,4.16,1.29,8.5,29.7,0.02,Parasitic,Reduced Feeding,None,High
+Monsoon,5.61,24.17,8.45,29.8,0.03,Unknown,Discoloration,None,Medium
+Monsoon,7.35,22.58,6.97,33.2,0.01,None,None,None,Low
+Monsoon,7.32,17.97,8.27,26.2,0.03,Unknown,Gasping,Saprolegniasis,Medium
+Monsoon,6.78,2.42,8.13,29,0.04,None,None,Columnaris,Low
+Winter,7.71,14.03,6.88,31.7,0.08,None,None,,Low
+Monsoon,6.74,16.22,7.18,20.7,0.07,None,None,None,Low
+Monsoon,4.04,13.3,8.25,26.5,0.09,None,None,None,Low
+Summer,5.05,14.26,7.99,30.9,0.06,None,None,None,Low
+Summer,4.8,19.25,8.16,33.2,0.03,None,None,None,Low
+Monsoon,4.76,12.71,6.58,27.7,0.08,None,None,None,Low
+Summer,4.95,10.04,7.55,31.9,0.09,None,None,Saprolegniasis,Low
+Winter,4.18,16.48,8.16,25.2,0.03,None,None,None,Low
+Winter,5.74,7.01,8.39,24.5,0.06,None,None,None,Low
+Summer,7.7,12.35,7.23,23.9,0.03,None,None,Saprolegniasis,Low
+Monsoon,7.04,32.66,8.03,32,0.08,Unknown,Gasping,Saprolegniasis,Medium
+Monsoon,5.92,1.98,7.34,34.4,0.04,Unknown,Gasping,Aeromoniasis,Medium
+Monsoon,7.82,7.11,7.74,28.2,0.02,None,None,Ichthyophthiriasis,Low
+Winter,5.24,0.38,7.45,24,0.03,Unknown,Lesions,None,Medium
+Winter,4.76,8.93,8.13,24.2,0.06,None,None,Hypoxia,Low
+Summer,7.16,30.11,6.65,25,0.04,Unknown,Lesions,Saprolegniasis,Medium
+Winter,7.13,10.12,7.61,31.2,0.04,None,None,None,Low
+Monsoon,7.97,26.39,7.92,31.8,0.04,None,None,None,Low
+Winter,7.31,20.68,7.48,30.7,0.06,None,None,,Low
+Monsoon,4.12,16.25,7.7,28,0.08,None,None,Ichthyophthiriasis,Low
+Winter,7.95,28.57,8.49,21.5,0.03,Unknown,Lesions,Ichthyophthiriasis,Medium
+Monsoon,4.88,31.06,8.47,21.6,0.07,None,None,None,Low
+Summer,7.1,13.64,6.53,30.9,0.05,None,None,None,Low
+Summer,4.87,31.62,7.44,30.4,0.03,Unknown,Gasping,Hypoxia,Medium
+Summer,4.33,30.88,8.27,33.1,0.07,Bacterial,Lesions,Ichthyophthiriasis,High
+Monsoon,5.88,19.33,7.92,34.6,0.02,None,None,None,Low
+Summer,5.61,16.39,6.74,20.4,0.09,None,None,None,Low
+Monsoon,,0.07,7.37,34.1,0.09,Unknown,Discoloration,Aeromoniasis,Medium
+Winter,7.94,3.95,8.39,24.7,0.03,None,None,Saprolegniasis,Low
+Winter,6.01,26.02,7.75,28.1,0.07,None,None,None,Low
+Summer,5.51,10.66,7.07,26,0.09,None,None,None,Low
+Summer,4.74,3.4,7.93,25.5,0.02,None,None,None,Low
+Summer,5.8,12.11,8.03,20,0.01,None,None,None,Low
+Summer,5.11,13.17,7.39,33.4,0.07,None,None,None,Low
+Summer,4.37,14.97,8.11,34.4,0.08,None,None,Ichthyophthiriasis,Low
+Summer,5.86,3.87,6.78,32.1,0.1,Bacterial,Lesions,Ichthyophthiriasis,High
+Summer,5.88,8.54,7.34,29.8,0.07,None,None,None,Low
+Winter,5.24,33.7,6.52,24.9,0.08,None,None,Ichthyophthiriasis,Low
+Winter,7.48,14.91,8.21,34,0.09,None,None,None,Low
+Monsoon,7.63,31.21,7.51,30.8,0.05,None,None,Columnaris,Low
+Summer,6.79,25.32,7.95,29.4,0.06,Bacterial,Lesions,None,High
+Monsoon,5.65,31.14,7.19,25.2,0.06,Unknown,Discoloration,Hypoxia,Medium
+Monsoon,5.47,4.92,6.76,28.2,0.06,None,None,,Low
+Summer,5.56,13.64,7.46,34.9,0.02,None,None,Columnaris,Low
+Monsoon,6.88,30.7,8.07,34.5,0.02,None,None,None,Low
+Monsoon,7.71,9.35,7.43,27.4,0.02,Unknown,Lesions,None,Medium
+Monsoon,5.96,17.51,8.27,34.4,0.07,Unknown,Gasping,Saprolegniasis,Medium
+Winter,4.61,1.2,6.87,24.3,0.08,Parasitic,Reduced Feeding,Aeromoniasis,High
+Monsoon,7.02,21.39,7.01,21.8,0.03,Unknown,Discoloration,Columnaris,Medium
+Winter,7.07,9.38,6.52,26.1,0.08,None,None,Columnaris,Low
+Summer,4.64,27.72,6.76,34.9,0.05,None,None,Hypoxia,Low
+Winter,6.66,14.24,6.95,34.5,0.09,None,None,None,Low
+Monsoon,5.66,29.4,7.76,21.6,0.07,Unknown,Lesions,Columnaris,Medium
+Summer,5.65,19.64,6.94,23.5,0.05,Unknown,Reduced Feeding,Saprolegniasis,Medium
+Summer,6.09,29.16,7.36,25.2,0.1,None,None,None,Low
+Winter,7,18.38,8.15,30,0.04,Unknown,Reduced Feeding,None,Medium
+Summer,4.21,16.29,7.07,27,0.07,None,None,None,Low
+Monsoon,6.7,22.9,7.19,31.7,0.06,Unknown,Gasping,None,Medium
+Winter,4.04,18.45,7.96,22.4,0.02,Unknown,Discoloration,None,Medium
+Summer,6.08,7.36,7.47,23.7,0.01,Unknown,Discoloration,Saprolegniasis,Medium
+Winter,4.78,31.12,7.39,31.3,0.05,Unknown,Gasping,Ichthyophthiriasis,Medium
+Monsoon,5.18,5.53,7.66,24,0.08,Unknown,Reduced Feeding,Saprolegniasis,Medium
+Winter,5.17,3.09,7.25,29.3,0.09,Unknown,Reduced Feeding,None,Medium
+Summer,5.95,28.79,8.29,29.6,0.03,None,None,Aeromoniasis,Low
+Monsoon,7.69,,8.37,25.4,0.08,None,None,None,Low
+Monsoon,7.39,22.18,7.17,22,0.06,Unknown,Gasping,Hypoxia,Medium
+Winter,4,7.17,8.16,32.2,0.1,None,None,Saprolegniasis,Low
+Summer,6.13,27.78,6.61,25.4,0.05,Unknown,Lesions,None,Medium
+Monsoon,5.67,27,6.77,,0.07,None,None,Columnaris,Low
+Winter,5.1,9.52,7.05,29.8,0.09,Unknown,Gasping,None,Medium
+Monsoon,5.81,31.35,7.3,21.6,0.04,None,None,None,Low
+Monsoon,5.78,21.04,7.35,30.6,0.09,Bacterial,Lesions,Aeromoniasis,High
+Winter,7.35,22.35,7.36,30.7,0.07,Bacterial,Lesions,Saprolegniasis,High
+Winter,6.67,22.19,6.8,34,0.02,None,None,None,Low
+Winter,6.62,19.3,,28.2,0.02,Unknown,Discoloration,None,Medium
+Summer,4.68,20.92,6.86,20.2,0.04,None,None,Ichthyophthiriasis,Low
+Monsoon,4.99,1.98,7.7,23.5,0.07,None,None,None,Low
+Winter,5.33,32.62,6.76,28.6,0.02,Unknown,Reduced Feeding,Hypoxia,Medium
+Summer,4.5,33.63,7.88,31.8,0.07,Bacterial,Lesions,Saprolegniasis,High
+Summer,7.94,3.34,8.42,33,0.07,Bacterial,Lesions,Aeromoniasis,High
+Summer,6.21,15.28,6.93,27.8,0.05,None,None,None,Low
+Winter,4.66,4.43,6.83,32,0.01,Bacterial,Lesions,None,High
+Winter,4.5,10.02,6.57,32.2,0.06,Fungal,Discoloration,Aeromoniasis,Medium
+Monsoon,5.02,15,7.39,21.9,0.1,Unknown,Reduced Feeding,None,Medium
+Summer,6.64,14.99,8.42,33.7,0.03,None,None,None,Low
+Monsoon,4.73,27.32,7.09,27.2,0.02,None,None,Aeromoniasis,Low
+Monsoon,5.09,18.48,8.19,32.7,0.03,None,None,None,Low
+Monsoon,,0.53,8.2,25.4,0.09,Unknown,Reduced Feeding,Columnaris,Medium
+Summer,4.3,5.25,7.71,30.2,0.06,Bacterial,Lesions,Aeromoniasis,High
+Summer,5.96,17.57,7.85,30.4,0.02,Unknown,Reduced Feeding,None,Medium
+Winter,5.46,0.56,8.11,22,0.1,None,None,,Low
+Summer,7.06,8.64,7.69,34.6,0.08,None,None,None,Low
+Winter,4.4,14.47,6.78,28.2,0.03,Bacterial,Lesions,None,High
+Monsoon,5.02,9.65,7.27,20.5,0.08,None,None,None,Low
+Winter,4.61,,6.97,33.4,0.06,None,None,None,Low
+Summer,5.55,29.81,7.3,22.3,0.04,Unknown,Discoloration,Ichthyophthiriasis,Medium
+Summer,7.16,19.14,6.61,34.1,0.03,Bacterial,Lesions,None,High
+Monsoon,7.64,10.16,8.46,21.1,0.03,None,None,None,Low
+Monsoon,5.46,7.78,7.15,24.9,0.03,Unknown,Lesions,Aeromoniasis,Medium
+Summer,4.68,28.7,6.9,30.2,0.07,Parasitic,Reduced Feeding,Aeromoniasis,High
+Monsoon,7.56,3.64,7.67,21.5,0.1,None,None,Columnaris,Low
+Summer,4.32,8.33,7.52,23.2,0.04,Unknown,Discoloration,Aeromoniasis,Medium
+Summer,4.63,34.13,8.13,24.1,0.07,None,None,None,Low
+Winter,4.72,1.06,7.28,31.3,0.06,Parasitic,Reduced Feeding,None,High
+Summer,7.33,30.14,8.31,20.1,0.03,Unknown,Lesions,Saprolegniasis,Medium
+Winter,6.25,3.94,7.03,33.6,0.05,None,None,Columnaris,Low
+Monsoon,5.77,16.23,7.76,28.2,0.09,Unknown,Reduced Feeding,Ichthyophthiriasis,Medium
+Summer,6.5,23.26,7.03,22.1,0.02,None,None,None,Low
+Summer,6.16,33.26,7.22,27.2,0.03,Unknown,Lesions,Hypoxia,Medium
+Winter,5.75,5.54,8.03,33.4,0.05,Bacterial,Lesions,Hypoxia,High
+Winter,4.92,32.55,6.82,29.9,0.03,None,None,None,Low
+Summer,7.7,11.91,7.46,20.6,0.03,Unknown,Lesions,Aeromoniasis,Medium
+Summer,5.91,28.91,7.47,21.9,0.1,None,None,None,Low
+Winter,5.96,21.06,7.41,29.9,0.06,None,None,Columnaris,Low
+Monsoon,5.73,33.41,7.71,23,0.06,None,None,None,Low
+Winter,6.27,18.97,6.73,20.3,0.03,Unknown,Reduced Feeding,None,Medium
+Monsoon,7.27,24.81,7.2,28.7,0.05,None,None,None,Low
+Winter,7.48,33.21,7.38,32.1,0.08,Unknown,Gasping,Aeromoniasis,Medium
+Winter,5.42,10.65,7.68,31.9,0.03,Bacterial,Lesions,Aeromoniasis,High
+Monsoon,5.8,4.78,8.34,22.9,0.02,None,None,None,Low
+Winter,4.03,15.62,7.12,21.6,0.04,Parasitic,Reduced Feeding,None,High
+Winter,6.57,26.68,8.38,22.1,0.05,None,None,None,Low
+Summer,7.65,31.07,6.66,26.9,0.08,None,None,Saprolegniasis,Low
+Summer,7.74,15.86,8.17,31.4,0.03,None,None,None,Low
+Monsoon,6.11,16.16,7.53,21.3,0.05,Unknown,Reduced Feeding,None,Medium
+Winter,4.25,2.19,7.11,21.7,0.04,None,None,None,Low
+Winter,4.54,16.22,7.76,23.5,0.06,None,None,None,Low
+Monsoon,6.79,26.15,,22.3,0.02,None,None,Hypoxia,Low
+Winter,7.06,14.42,8.16,20.7,0.02,Unknown,Gasping,None,Medium
+Winter,7.46,30.14,8.38,34.8,0.1,None,None,None,Low
+Winter,4.44,29.18,7.79,27.4,0.05,Unknown,Lesions,None,Medium
+Summer,6.27,29.9,7.99,27.2,0.08,None,None,None,Low
+Summer,7.86,23.17,6.85,33.5,0.09,Unknown,Reduced Feeding,Columnaris,Medium
+Monsoon,7.09,19.4,8.22,30,0.04,Bacterial,Lesions,Hypoxia,High
+Monsoon,7.94,15.84,8.34,33,0.04,None,None,None,Low
+Winter,5.31,17.63,8.12,21.8,0.04,Unknown,Lesions,Aeromoniasis,Medium
+Winter,4.05,22.57,7.3,,0.08,Unknown,Lesions,None,Medium
+Monsoon,6.71,26,6.6,32.6,0.09,Unknown,Reduced Feeding,Aeromoniasis,Medium
+Winter,7.2,14.38,7.29,34.7,0.08,Unknown,Discoloration,None,Medium
+Winter,5.37,1.22,8.48,29.3,0.02,Bacterial,Lesions,Columnaris,High
+Winter,4.29,2.07,6.68,24.1,0.05,None,None,None,Low
+Monsoon,4.77,31.66,7.15,26.8,0.06,None,None,None,Low
+Winter,6.13,30.2,8.26,26.6,0.08,None,None,Columnaris,Low
+Winter,5.64,7.2,8.47,22.2,0.07,None,None,None,Low
+Summer,7.92,1.56,7.23,27.1,0.01,Unknown,Discoloration,Ichthyophthiriasis,Medium
+Summer,,9.57,6.82,27.8,0.05,None,None,None,Low
+Monsoon,5.32,12.8,7.01,27.9,0.09,None,None,Aeromoniasis,Low
+Monsoon,7.66,7.2,6.7,25.9,0.05,None,None,Ichthyophthiriasis,Low
+Winter,7.43,10.22,7.01,29.6,0.09,Bacterial,Lesions,None,High
+Monsoon,4.9,29.59,6.73,31.3,0.05,None,None,None,Low
+Monsoon,7.49,21.39,6.87,22.3,0.08,Unknown,Reduced Feeding,Aeromoniasis,Medium
+Summer,6.06,33.99,8.22,28.4,0.08,None,None,Ichthyophthiriasis,Low
+Summer,7.54,32.12,8.49,31.8,0.06,None,None,Saprolegniasis,Low
+Summer,6.68,12.59,7.17,28.1,0.01,Unknown,Gasping,Columnaris,Medium
+Monsoon,5.39,27.39,6.55,30.5,0.04,Bacterial,Lesions,Columnaris,High
+Summer,4.14,4.53,7.03,20,0.09,Unknown,Lesions,None,Medium
+Monsoon,4.31,13.36,7.57,33.8,0.04,Unknown,Discoloration,Columnaris,Medium
+Winter,4.49,,8.39,27.1,0.03,None,None,None,Low
+Summer,5.33,9.79,8.39,22.2,0.08,Unknown,Discoloration,Aeromoniasis,Medium
+Winter,6.71,10.8,7.11,32.8,0.02,Bacterial,Lesions,Saprolegniasis,High
+Summer,5.9,18.85,7.98,27.9,0.05,None,None,Saprolegniasis,Low
+Summer,6.23,24.53,6.79,34,0.07,None,None,Aeromoniasis,Low
+Winter,7.6,29.37,8.35,30.2,0.02,Unknown,Reduced Feeding,Hypoxia,Medium
+Monsoon,4.38,2.9,8,24.7,0.06,Parasitic,Reduced Feeding,Saprolegniasis,High
+Winter,4.8,9.28,8.44,34.8,0.09,Bacterial,Lesions,None,High
+Monsoon,6.53,14.17,8.23,22.3,0.07,None,None,Columnaris,Low
+Summer,5.44,9.26,7.41,20.4,0.07,None,None,Hypoxia,Low
+Summer,5.28,12.47,6.88,28,0.03,None,None,None,Low
+Summer,4.81,5.73,7.89,24.2,0.08,Unknown,Lesions,None,Medium
+Monsoon,6.06,34.93,7.96,24.5,0.1,None,None,None,Low
+Winter,5.26,20,7.14,26.5,0.06,Unknown,Lesions,Ichthyophthiriasis,Medium
+Monsoon,4.56,7.28,7.03,32.1,0.06,Unknown,Gasping,Aeromoniasis,Medium
+Monsoon,7.94,0.59,8.39,26,0.01,None,None,Columnaris,Low
+Monsoon,4.61,7.74,8.29,22.9,0.02,None,None,None,Low
+Monsoon,5.33,27.13,7.54,21.6,0.03,None,None,Ichthyophthiriasis,Low
+Monsoon,4.59,24.49,6.82,33.8,0.09,None,None,Ichthyophthiriasis,Low
+Monsoon,4.96,4.12,7.35,20.9,0.1,Unknown,Discoloration,Aeromoniasis,Medium
+Monsoon,4.17,28.9,7.61,26.2,0.07,Unknown,Lesions,None,Medium
+Monsoon,7.92,7.05,8.23,21.5,0.05,Unknown,Gasping,None,Medium
+Summer,4.58,7.9,6.67,33,0.07,None,None,Hypoxia,Low
+Winter,7.61,13.42,7.72,29.1,0.08,Bacterial,Lesions,None,High
+Summer,7.28,20.49,7.34,22.8,0.09,Unknown,Lesions,Ichthyophthiriasis,Medium
+Summer,7.09,29.8,8.28,30.7,0.02,Bacterial,Lesions,None,High
+Summer,5.19,8.69,7.66,22.5,0.04,Unknown,Lesions,None,Medium
+Monsoon,6.31,13.18,7.05,33.6,0.1,None,None,Hypoxia,Low
+Winter,5.62,15.03,6.93,20.9,0.06,Unknown,Lesions,None,Medium
+Monsoon,6.2,16.4,6.5,30.4,0.01,None,None,Aeromoniasis,
+Monsoon,6.22,17.95,6.62,20.5,0.07,None,None,Hypoxia,Low
+Winter,6.75,28.29,8.36,33.5,0.03,None,None,None,Low
+Summer,7.49,14.64,7.55,23.9,0.02,None,None,Hypoxia,Low
+Summer,7.26,31.16,7.08,34.9,0.02,None,None,None,Low
+Monsoon,7.12,6.34,7.52,31.9,0.08,Bacterial,Lesions,Aeromoniasis,High
+Winter,5.28,7.52,8.4,26.3,0.01,Unknown,Reduced Feeding,None,Medium
+Summer,5.87,34.02,7.46,32.5,0.09,Bacterial,Lesions,Ichthyophthiriasis,High
+Summer,5.46,19.21,8.42,20.7,0.02,Unknown,Gasping,Columnaris,Medium
+Winter,4.13,33.91,7.74,34.6,0.05,None,None,None,Low
+Winter,4.08,33.59,7.56,34.9,0.02,Unknown,Gasping,,Medium
+Monsoon,4.14,27.01,8.33,29.3,0.09,Unknown,Gasping,None,Medium
+Monsoon,5.77,25.54,7.6,33.1,0.06,Unknown,Reduced Feeding,Aeromoniasis,Medium
+Monsoon,4.16,5.53,8.03,31.3,0.06,None,None,Aeromoniasis,Low
+Monsoon,7.55,16.52,8.35,20.8,0.09,None,None,Hypoxia,Low
+Winter,5.57,32.26,7.71,23.9,0.06,Unknown,Gasping,None,Medium
+Monsoon,5.53,2.6,7.83,30.2,0.02,Unknown,Reduced Feeding,None,Medium
+Summer,5.26,22.86,7.85,22.7,0.04,None,None,None,Low
+Winter,7.35,29.44,6.53,32.8,0.06,Unknown,Gasping,None,Medium
+Summer,5.46,28.92,7.89,23.8,0.07,None,None,None,Low
+Monsoon,7.48,6.44,8.05,20.6,0.04,None,None,Ichthyophthiriasis,Low
+Winter,4.91,9.95,6.6,26.3,0.09,None,None,None,Low
+Monsoon,5.87,9.01,8.2,21.7,0.09,None,None,Ichthyophthiriasis,Low
+Monsoon,7.82,19.71,7.85,27.6,0.04,None,None,None,Low
+Summer,7.58,0.57,6.79,32.8,0.06,None,None,Columnaris,Low
+Winter,5.38,11.31,8.05,28.1,0.04,None,None,Columnaris,Low
+Winter,7.68,26.08,8.02,27.3,0.08,None,None,Saprolegniasis,Low
+Monsoon,7.3,20.53,6.74,27.7,0.09,Unknown,Reduced Feeding,None,Medium
+Monsoon,4.48,19.66,8.5,28.7,0.1,None,None,Ichthyophthiriasis,Low
+Monsoon,5.27,7.46,6.78,24,0.04,None,None,None,Low
+Monsoon,7.31,32.69,6.7,20.2,0.06,None,None,None,Low
+Monsoon,4.27,19.87,6.86,26.8,0.04,Fungal,Discoloration,Aeromoniasis,Medium
+Winter,5.27,18.41,8.15,27.7,0.06,None,None,None,Low
+Summer,5.35,3.82,6.67,34.1,0.01,None,None,Saprolegniasis,Low
+Monsoon,5.61,34.71,7.2,27,0.07,Unknown,Gasping,None,Medium
+Winter,5.73,20.54,7.43,30.7,0.08,Unknown,Discoloration,None,Medium
+Monsoon,4.96,8.09,7.79,27,0.06,Parasitic,Reduced Feeding,Hypoxia,High
+Monsoon,7.57,12.41,8.18,30.5,0.03,None,None,None,Low
+Monsoon,6.19,24.96,6.69,21.3,0.06,None,None,None,Low
+Summer,7.08,25.62,6.91,28.1,0.09,Bacterial,Lesions,None,High
+Summer,7.89,23.07,7.56,20.5,0.06,Unknown,Lesions,None,Medium
+Summer,7.84,16.19,6.62,31.3,0.03,None,None,Saprolegniasis,Low
+Monsoon,5.74,4.84,7.15,30.2,0.07,Unknown,Reduced Feeding,None,Medium
+Winter,6.44,34.46,8.33,33.2,0.08,Bacterial,Lesions,None,High
+Winter,7.31,14.63,7.4,27.6,0.03,Unknown,Reduced Feeding,Aeromoniasis,Medium
+Monsoon,7.07,0.44,8.2,20.2,0.09,None,None,None,Low
+Summer,5.87,9.1,8.29,29.1,0.1,Unknown,Gasping,None,Medium
+Summer,4.78,19.67,7.28,20.5,0.05,Unknown,Gasping,Ichthyophthiriasis,Medium
+Winter,7.2,15.74,7.64,27.2,0.1,None,None,None,Low
+Monsoon,5.27,8.84,7.34,24,0.03,None,None,Aeromoniasis,Low
+Summer,6.99,15.94,7.85,25.2,0.06,None,None,Aeromoniasis,Low
+Monsoon,5.92,21.1,6.83,32.7,0.03,Fungal,Discoloration,Saprolegniasis,Medium
+Summer,5.22,18.35,7.71,20.4,0.04,None,None,Aeromoniasis,Low
+Summer,6.39,14.03,7.96,33.3,0.02,None,None,None,Low
+Summer,5.41,2.52,8.3,20.5,0.05,None,None,None,Low
+Monsoon,7.03,25.1,6.58,23.6,0.08,Unknown,Lesions,None,Medium
+Monsoon,7.34,1.29,8.17,23.1,0.1,None,None,Columnaris,Low
+Winter,7.9,7.93,8.42,20.7,0.08,None,None,Aeromoniasis,Low
+Summer,7.3,34,6.67,29.9,0.1,Fungal,Discoloration,None,
+Monsoon,4.98,8.13,8.12,24.9,0.09,Parasitic,Reduced Feeding,Aeromoniasis,High
+Winter,7.76,3.45,7.34,20.8,0.04,None,None,None,Low
+Winter,7.92,1.28,8.46,25.3,0.03,None,None,Ichthyophthiriasis,Low
+Monsoon,5.24,16.98,6.93,33.1,0.07,None,None,None,Low
+Winter,6.48,2.67,8.26,28.4,0.05,None,None,Aeromoniasis,Low
+Winter,6.36,6.24,7.04,33.9,0.04,Unknown,Reduced Feeding,None,Medium
+Winter,5.4,9.83,7.45,22.7,0.1,Unknown,Discoloration,None,Medium
+Winter,4.48,28.35,7.07,25.5,0.08,None,None,Hypoxia,Low
+Monsoon,5.63,5.91,7.24,24.2,0.09,Unknown,Reduced Feeding,None,Medium
+Winter,6.51,1.38,8.33,24,0.05,Unknown,Gasping,None,Medium
+Summer,7.05,29.78,7.36,28.5,0.09,None,None,None,Low
+Winter,4.95,20.89,6.91,25.7,0.01,None,None,None,Low
+Monsoon,4.31,14.57,7.7,31.5,0.06,Parasitic,Reduced Feeding,None,High
+Summer,7.3,29.85,7.85,25,0.04,Unknown,Gasping,None,Medium
+Monsoon,5.61,0.75,7.5,26.1,0.01,None,None,None,Low
+Monsoon,6.86,13.35,8.39,30.2,0.02,Bacterial,Lesions,Columnaris,High
+Summer,4.5,26.05,7.89,23.6,0.03,None,None,Columnaris,Low
+Monsoon,6.23,34.48,7.73,30.7,0.08,Bacterial,Lesions,None,High
+Winter,4.33,10.08,6.89,20.5,0.09,Unknown,Lesions,None,Medium
+Summer,4.26,31.01,7.37,22.9,0.08,Unknown,Lesions,Aeromoniasis,Medium
+Summer,4.73,27.8,8.49,23.5,0.04,Unknown,Lesions,None,Medium
+Monsoon,6.22,4.9,8.48,27.2,0.07,Unknown,Discoloration,None,Medium
+Summer,5.55,7.9,7.44,24.4,0.04,Unknown,Discoloration,None,Medium
+Summer,5.52,11.08,7.28,20.1,0.1,Unknown,Lesions,None,Medium
+Summer,4.04,33.14,6.83,20.2,0.04,Unknown,Lesions,None,Medium
+Winter,7.58,29.69,8.07,34.9,0.03,Unknown,Reduced Feeding,Ichthyophthiriasis,Medium
+Summer,7.28,5.78,7.43,21.5,0.04,Unknown,Discoloration,Ichthyophthiriasis,Medium
+Winter,4.89,4.63,8.5,32.9,0.09,None,None,None,Low
+Monsoon,4.85,27.99,8.29,33,0.05,Bacterial,Lesions,None,High
+Summer,4.42,21.88,7.78,23.4,0.02,None,None,None,Low
+Monsoon,6.92,19.8,7.74,20.2,0.09,Unknown,Lesions,Aeromoniasis,Medium
+Monsoon,5.71,19.58,7.29,31.1,0.01,Unknown,Reduced Feeding,Saprolegniasis,Medium
+Summer,6.97,31.7,7.82,29,0.08,None,None,Aeromoniasis,Low
+Winter,4.44,7.92,8.12,31,0.07,None,None,Ichthyophthiriasis,Low
+Summer,7.94,34.59,7.19,21.1,0.04,Unknown,Discoloration,None,Medium
+Monsoon,4.11,14.71,7.4,21.3,0.07,Unknown,Lesions,None,Medium
+Winter,5.06,8.81,8.2,26.8,0.09,None,None,None,Low
+Summer,5.68,4.09,6.57,28.4,0.03,None,None,Ichthyophthiriasis,Low
+Monsoon,7.27,33.25,6.95,20.3,0.07,None,None,Saprolegniasis,Low
+Monsoon,6.6,33.7,6.61,32.6,0.08,None,None,None,Low
+Monsoon,6.32,34.73,7.99,21,0.03,None,None,None,Low
+Summer,5.62,1.59,7.4,33.5,0.01,None,None,None,Low
+Winter,4.97,34.16,7.07,26.3,0.01,Unknown,Gasping,None,Medium
+Winter,5.33,30.9,8.4,32.8,0.01,Bacterial,Lesions,None,High
+Winter,4.19,10.27,8.2,25,0.07,None,None,None,Low
+Winter,4.02,21.4,8.33,34.6,0.08,None,None,Hypoxia,Low
+Summer,4.62,17.92,8.33,34,0.01,Unknown,Discoloration,None,Medium
+Winter,7.69,1.23,6.94,24.1,0.07,None,None,Columnaris,Low
+Winter,5.06,10.61,8.07,26.7,0.02,None,None,None,Low
+Summer,5.4,20.53,7.28,31.6,0.08,None,None,Columnaris,Low
+Monsoon,5.96,11.68,6.69,33.9,0.06,None,None,Columnaris,Low
+Winter,4.88,11.38,7.48,26.6,0.04,Unknown,Lesions,None,Medium
+Summer,5.64,12.79,7.82,30.6,0.1,None,None,Columnaris,Low
+Summer,7.24,1.32,8.43,26.9,0.08,None,None,Columnaris,Low
+Winter,7.13,11.33,6.92,27.9,0.06,Unknown,Lesions,Ichthyophthiriasis,Medium
+Monsoon,7.32,4.46,7.56,29.1,0.05,None,None,None,Low
+Winter,6.34,29.97,7.29,34.8,0.03,Bacterial,Lesions,None,High
+Winter,7.61,24.87,8.3,25.3,0.07,None,None,None,Low
+Monsoon,6.89,7.04,7,26.2,0.09,None,None,None,Low
+Summer,5.88,28.57,8.09,33,0.1,Bacterial,Lesions,Hypoxia,High
+Summer,6.95,28.67,6.53,21.4,0.09,None,None,Aeromoniasis,Low
+Monsoon,5.67,10.73,7.25,24.7,0.03,Unknown,Lesions,None,Medium
+Monsoon,4.11,10.47,8.43,34.7,0.05,None,None,None,Low
+Winter,6.32,26.89,8.46,32.3,0.04,None,None,None,Low
+Summer,7.8,7.27,6.63,26.8,0.08,None,None,None,Low
+Summer,5.61,11.94,7.78,22,0.05,Unknown,Gasping,None,Medium
+Monsoon,7.6,11.58,7.41,29.2,0.09,Bacterial,Lesions,Ichthyophthiriasis,High
+Monsoon,7.32,20.75,7.41,33.7,0.06,Unknown,Reduced Feeding,Aeromoniasis,Medium
+Summer,5.68,31.6,7.56,33.2,0.05,Unknown,Gasping,Saprolegniasis,Medium
+Monsoon,4.69,20.43,6.89,29.4,0.07,Parasitic,Reduced Feeding,None,High
+Summer,6.92,28.6,7.52,21.8,0.06,Unknown,Lesions,Saprolegniasis,Medium
+Monsoon,4.55,22.74,6.57,28.5,0.03,None,None,Ichthyophthiriasis,Low
+Monsoon,5.11,34.17,6.65,35,0.02,None,None,None,Low
+Monsoon,4.26,1.61,6.61,29.1,0.04,None,None,None,Low
+Summer,4.91,6.38,6.61,22.7,0.03,Unknown,Lesions,None,Medium
+Monsoon,7.67,1.02,7.1,33.2,0.09,Unknown,Reduced Feeding,None,Medium
+Winter,5.77,22.17,7.5,30.1,0.04,None,None,Aeromoniasis,Low
+Summer,4.45,17.82,8.17,33.4,0.03,None,None,None,Low
+Winter,4.34,2.99,6.58,22.3,0.06,Unknown,Lesions,None,Medium
+Winter,5.7,24.7,7.04,26.8,0.09,Unknown,,None,Medium
+Summer,4.69,2.78,7.68,33.4,0.04,Parasitic,Reduced Feeding,None,High
+Summer,5.36,12.35,7.12,22.2,0.09,None,None,None,Low
+Winter,4.71,9.71,7.31,23.6,0.04,None,None,None,Low
+Monsoon,5.14,0.37,7.45,32.8,0.09,Unknown,Gasping,None,Medium
+Monsoon,7.99,0.05,7.33,22.4,0.02,None,None,None,Low
+Monsoon,4.87,23.32,7.22,26.9,0.04,Unknown,Discoloration,Saprolegniasis,Medium
+Summer,6.15,27.34,8.16,24.4,0.09,None,None,Aeromoniasis,Low
+Winter,6.82,9.61,8.27,20.8,0.06,Unknown,Gasping,Ichthyophthiriasis,Medium
+Monsoon,5.97,33.8,7.8,27.7,0.05,None,None,Ichthyophthiriasis,Low
+Monsoon,6.49,34.49,8.29,22.9,0.09,Unknown,Gasping,None,Medium
+Winter,6.56,28.06,8.05,31.9,0.03,Unknown,Discoloration,None,Medium
+Winter,4.19,20.47,8.18,24.3,0.07,None,None,Saprolegniasis,Low
+Winter,7.13,21.02,7.09,21,0.04,None,None,Saprolegniasis,Low
+Winter,7.85,0.5,6.94,29.8,0.08,None,None,None,Low
+Monsoon,6.7,26.83,8,29.2,0.09,Unknown,Reduced Feeding,Hypoxia,Medium
+Monsoon,5.11,32.29,6.9,26.9,0.09,None,None,None,Low
+Monsoon,5.88,29.24,6.94,20.4,0.02,None,None,None,Low
+Monsoon,6.03,20.25,7.47,26,0.04,Unknown,Gasping,Ichthyophthiriasis,Medium
+Monsoon,5.87,11.18,7.87,26.3,0.05,Unknown,Lesions,Aeromoniasis,Medium
+Monsoon,6.51,2.49,6.52,32.1,0.03,Unknown,Reduced Feeding,None,Medium
+Summer,5.52,33.76,8.47,25.2,0.09,Unknown,Lesions,None,Medium
+Monsoon,4.18,23.29,8.35,31.9,0.09,Bacterial,Lesions,Aeromoniasis,High
+Summer,5.06,9.41,6.74,34.5,0.07,Bacterial,Lesions,None,High
+Summer,4.66,7.67,7.97,23.5,0.02,None,None,Ichthyophthiriasis,Low
+Monsoon,6.51,24.89,8.43,29.8,0.05,None,None,Aeromoniasis,Low
+Summer,5.51,12.32,8.35,28.6,0.02,None,None,Saprolegniasis,Low
+Monsoon,4.23,6.22,8.44,32.7,0.06,None,None,Ichthyophthiriasis,Low
+Winter,5.78,17.76,8.11,33.8,0.03,None,None,Columnaris,Low
+Winter,6.88,23.34,8.29,28,0.05,None,None,None,Low
+Summer,6.21,23.93,7.22,30.9,0.07,None,None,Ichthyophthiriasis,Low
+Winter,7.64,16.44,7.13,34.6,0.07,None,None,Saprolegniasis,Low
+Summer,7.64,12.43,7.49,32.9,0.09,Unknown,Reduced Feeding,None,Medium
+Summer,6.26,29.1,7,31.9,0.04,Unknown,Gasping,Saprolegniasis,Medium
+Summer,6.2,9.65,7.59,34.4,0.03,Bacterial,Lesions,None,High
+Summer,7.49,12.85,7.77,26.4,0.09,Unknown,Gasping,None,Medium
+Summer,5.2,20.68,6.62,31.7,0.1,Unknown,Reduced Feeding,None,Medium
+Monsoon,5.81,16.91,7.98,23,0.07,Unknown,Gasping,None,Medium
+Monsoon,7.63,10.96,7.11,25.4,0.03,Unknown,Gasping,Aeromoniasis,Medium
+Summer,7.52,28,6.58,27.3,0.07,None,None,Aeromoniasis,Low
+Monsoon,5.04,24.54,7.27,26.2,0.05,Unknown,Lesions,None,Medium
+Monsoon,4.63,13.07,8.21,23.9,0.03,None,None,None,Low
+Winter,7.75,9.75,7.94,24.2,0.05,None,None,None,Low
+Winter,7.56,9.06,8.08,28.1,0.1,None,None,Ichthyophthiriasis,Low
+Monsoon,7.56,19.81,7.42,23,0.06,None,None,Aeromoniasis,Low
+Summer,6.41,3.67,7.21,31.9,0.07,None,None,Hypoxia,Low
+Summer,6.14,7.87,7.88,26.8,0.1,Unknown,Lesions,Saprolegniasis,Medium
+Summer,4.11,12.47,8.06,33.8,0.03,None,None,None,Low
+Monsoon,5.01,23.16,6.66,20.6,0.06,Unknown,Gasping,Ichthyophthiriasis,Medium
+Summer,4.33,22.9,8.36,33.2,0.02,Unknown,Discoloration,None,Medium
+Winter,4.02,6.1,8.26,21.8,0.03,None,None,Ichthyophthiriasis,Low
+Winter,4.16,18.41,7.4,20.6,0.02,None,None,None,Low
+Summer,7.45,29.54,6.73,26.2,0.09,None,None,Columnaris,Low
+Winter,5.16,9.77,7.32,27.3,0.04,Unknown,Reduced Feeding,None,Medium
+Monsoon,4.52,3.61,7.94,26.1,0.01,Unknown,Discoloration,None,Medium
+Winter,5.29,11.15,7.36,21,0.05,None,None,None,Low
+Winter,6.29,34.43,7.42,20.4,0.04,Unknown,Lesions,Columnaris,Medium
+Winter,6.9,8.46,8.43,26,0.09,None,None,None,Low
+Winter,6.7,11.33,7.23,30.8,0.04,Bacterial,Lesions,Aeromoniasis,High
+Winter,7.05,21.43,7.54,33,0.04,None,None,None,Low
+Summer,7.9,27.13,6.78,29.9,0.08,Bacterial,Lesions,None,High
+Summer,6.17,31.2,7.43,28.5,0.07,Bacterial,Lesions,Aeromoniasis,High
+Winter,5.76,4.69,7.51,27.7,0.06,Unknown,Lesions,Aeromoniasis,Medium
+Summer,6.82,19.03,6.79,30.2,0.02,None,None,Aeromoniasis,Low
+Monsoon,6.38,34.22,6.78,20.9,0.06,Unknown,Lesions,None,Medium
+Summer,5.59,31.24,6.78,20.2,0.09,None,None,Columnaris,Low
+Summer,7.17,5.44,6.97,24.4,0.1,Unknown,Gasping,None,Medium
+Winter,4.54,,8.18,25.3,0.04,None,None,Aeromoniasis,Low
+Summer,6.9,9.22,8.15,27.5,0.08,None,None,Ichthyophthiriasis,Low
+Summer,4.7,6.92,7.07,24.4,0.01,None,None,Aeromoniasis,Low
+Winter,5.56,16.37,8.34,25.6,0.04,Unknown,Lesions,Saprolegniasis,Medium
+Monsoon,4.66,30.04,7.85,22.5,0.08,None,None,None,Low
+Summer,7.09,9.02,6.87,22.6,0.01,None,None,Columnaris,Low
+Summer,4.8,31.03,6.67,22.4,0.1,None,None,None,Low
+Summer,5.4,31.96,7,,0.1,None,None,Aeromoniasis,Low
+Winter,5.48,18.53,7.7,23.8,0.04,Unknown,Gasping,Ichthyophthiriasis,Medium
+Monsoon,4.1,31.02,7.33,26.5,0.09,Unknown,Lesions,None,Medium
+Monsoon,6.31,32.73,7.66,25.3,0.05,Unknown,Gasping,None,Medium
+Summer,4.27,14.4,7.56,28.2,0.09,Unknown,Discoloration,Hypoxia,Medium
+Monsoon,4.58,5.17,7.22,28.8,0.06,None,None,None,Low
+Summer,6.12,17.98,8.09,30.9,,None,None,None,Low
